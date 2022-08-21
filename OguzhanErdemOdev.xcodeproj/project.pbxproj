@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		6673EE7828B115F70071CC59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673EE7728B115F70071CC59 /* AppDelegate.swift */; };
 		6673EE7A28B115F70071CC59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673EE7928B115F70071CC59 /* SceneDelegate.swift */; };
-		6673EE7C28B115F70071CC59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673EE7B28B115F70071CC59 /* ViewController.swift */; };
 		6673EE7F28B115F70071CC59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6673EE7D28B115F70071CC59 /* Main.storyboard */; };
 		6673EE8128B115F80071CC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6673EE8028B115F80071CC59 /* Assets.xcassets */; };
 		6673EE8428B115F80071CC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6673EE8228B115F80071CC59 /* LaunchScreen.storyboard */; };
+		6673EE8D28B118130071CC59 /* AnasayfaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673EE8C28B118130071CC59 /* AnasayfaVC.swift */; };
+		6673EE8F28B118330071CC59 /* SayfaAVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673EE8E28B118330071CC59 /* SayfaAVC.swift */; };
+		6673EE9128B118400071CC59 /* SayfaBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673EE9028B118400071CC59 /* SayfaBVC.swift */; };
+		6673EE9328B118550071CC59 /* SayfaXVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673EE9228B118550071CC59 /* SayfaXVC.swift */; };
+		6673EE9528B118640071CC59 /* SayfaYVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6673EE9428B118640071CC59 /* SayfaYVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6673EE7428B115F70071CC59 /* OguzhanErdemOdev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OguzhanErdemOdev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6673EE7728B115F70071CC59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6673EE7928B115F70071CC59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6673EE7B28B115F70071CC59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6673EE7E28B115F70071CC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6673EE8028B115F80071CC59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6673EE8328B115F80071CC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6673EE8528B115F80071CC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6673EE8C28B118130071CC59 /* AnasayfaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaVC.swift; sourceTree = "<group>"; };
+		6673EE8E28B118330071CC59 /* SayfaAVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayfaAVC.swift; sourceTree = "<group>"; };
+		6673EE9028B118400071CC59 /* SayfaBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayfaBVC.swift; sourceTree = "<group>"; };
+		6673EE9228B118550071CC59 /* SayfaXVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayfaXVC.swift; sourceTree = "<group>"; };
+		6673EE9428B118640071CC59 /* SayfaYVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayfaYVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		6673EE7628B115F70071CC59 /* OguzhanErdemOdev */ = {
 			isa = PBXGroup;
 			children = (
+				6673EE8B28B117D40071CC59 /* Scenes */,
 				6673EE7728B115F70071CC59 /* AppDelegate.swift */,
 				6673EE7928B115F70071CC59 /* SceneDelegate.swift */,
-				6673EE7B28B115F70071CC59 /* ViewController.swift */,
 				6673EE7D28B115F70071CC59 /* Main.storyboard */,
 				6673EE8028B115F80071CC59 /* Assets.xcassets */,
 				6673EE8228B115F80071CC59 /* LaunchScreen.storyboard */,
 				6673EE8528B115F80071CC59 /* Info.plist */,
 			);
 			path = OguzhanErdemOdev;
+			sourceTree = "<group>";
+		};
+		6673EE8B28B117D40071CC59 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6673EE8C28B118130071CC59 /* AnasayfaVC.swift */,
+				6673EE8E28B118330071CC59 /* SayfaAVC.swift */,
+				6673EE9028B118400071CC59 /* SayfaBVC.swift */,
+				6673EE9228B118550071CC59 /* SayfaXVC.swift */,
+				6673EE9428B118640071CC59 /* SayfaYVC.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6673EE7C28B115F70071CC59 /* ViewController.swift in Sources */,
+				6673EE9128B118400071CC59 /* SayfaBVC.swift in Sources */,
+				6673EE8D28B118130071CC59 /* AnasayfaVC.swift in Sources */,
+				6673EE8F28B118330071CC59 /* SayfaAVC.swift in Sources */,
 				6673EE7828B115F70071CC59 /* AppDelegate.swift in Sources */,
+				6673EE9328B118550071CC59 /* SayfaXVC.swift in Sources */,
 				6673EE7A28B115F70071CC59 /* SceneDelegate.swift in Sources */,
+				6673EE9528B118640071CC59 /* SayfaYVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
